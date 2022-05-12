@@ -1,0 +1,56 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Date to Parsha Converter</title>
+            <link rel="stylesheet" href="style.css">
+        </head> 
+        <body>
+            <div style="display: flex;
+            justify-content: center;
+            align-items: center;">
+
+            <div class="day">
+                <p>Day: </p>
+                <input type="text" id="day" >
+            </div>
+            
+            <div class="month">
+                <P>Month:</P>
+                <select id="month">
+                    <option value="01">JANUARY</option>
+                    <option value="02">FEBUARY</option>
+                    <option value="03">MARCH</option>
+                    <option value="04">APRIL</option>
+                    <option value="05">MAY</option>
+                    <option value="06">JUNE</option>
+                    <option value="07">JULY</option>
+                    <option value="08">AUGUST</option>
+                    <option value="09">SEPTEMBER</option>
+                    <option value="10">OCTOBER</option>
+                    <option value="11">NOVEMEBER</option>
+                    <option value="12">DECEMBER</option>
+                </select>
+                <script src="script.js"></script>
+            </div>
+
+            <div class="year">
+                <p>Year: </p>
+                <input type="text" id="year">
+            </div>
+
+            <div>
+                <button onclick="getParsha()" class="submit">Get Parsha</button>
+            </div>
+
+            <div class="result">
+                <b>
+                    <p id="result"> * The Parsha is displayed here *</p>
+                </b>
+            </div>
+
+
+            </div>
+ 
+            
+        </body>
+    </html>

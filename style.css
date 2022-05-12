@@ -1,0 +1,46 @@
+/* Day field */
+.day p {
+    margin-top: 10px;
+    display: inline;
+}
+
+.day input {
+    display: inline;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+
+/* Month field */
+.month p {
+    margin-top: 10px;
+    margin-right: 0px;
+    display: inline;
+}
+
+.month select {
+    display: inline;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+
+
+  /* Year field */
+.year p {
+    margin-top: 10px;
+    display: inline;
+}
+
+.year input {
+    display: inline;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+.result {
+    margin-top: 10px;
+    margin-left: 16px;
+}
