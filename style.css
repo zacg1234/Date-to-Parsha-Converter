@@ -41,6 +41,13 @@
 }
 
 .result {
-    margin-top: 10px;
-    margin-left: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#result {
+    margin: 0 auto;
 }
